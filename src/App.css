@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+.banner-img {
+  position: relative;
+  background-image: url('../public/assets/imgs/Film-Processing-Banner.png');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-img-2 {
+  position: relative;
+  background-image: url('../public/assets/imgs/Film-Processing-Banner.png');
+  background-size: cover;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.banner-img .banner-content h2, .banner-img .banner-content p {
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.banner-img-2 h3, .banner-img-2 p {
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.banner-img-2 img {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.card-img-top {
+  height: 400px;
+  object-fit: cover;
+}
+
+.rounded-botom {
+  border-radius: 0 0 5px 5px;
+}
+
+.border {
+  border-top: 1px solid #ffffff;
+}
+
